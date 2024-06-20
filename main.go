@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Calculadora basicas de operaciones matematicas.")
+	fmt.Println("Calculadora basica de operaciones matematicas.")
 	fmt.Println("Ingrese la operacion a realizar (ej: `1+2*(3-1)` ): ")
 
 	var op string
@@ -18,4 +18,6 @@ func main() {
 	}
 
 	fmt.Println(pkg.Calculate(op))
+	fmt.Println("Presione Enter para salir.")
+	fmt.Scanln()
 }
